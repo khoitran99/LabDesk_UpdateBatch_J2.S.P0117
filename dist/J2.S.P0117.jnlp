@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="J2.S.P0117.jnlp">
+  <information>
+    <title>J2.S.P0117</title>
+    <vendor>khoi.tranvan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="J2.S.P0117.jar" size="10212" download="eager" />
+    <jar href="lib\sqljdbc42.jar" size="898868" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="J2.S.P0117" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main.Main"  name="J2.S.P0117" />
+  <update check="always"/>
+</jnlp>
